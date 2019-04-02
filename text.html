@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<link rel="stylesheet" type="text/css" href="statics/css/swiper.min.css"/>
+		<style type="text/css">
+			.swiper-container {
+			    width: 600px;
+			    height: 300px;
+			}  
+			.swiper-pagination-bullet{width:40px;height:5px;border-radius:0}
+            .swiper-pagination-bullet-active{width:40px;background:red}
+			
+			
+		</style>
+	</head>
+	<body>
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide">
+		        	<p>111111111</p>
+		        </div>
+		        
+		        <div class="swiper-slide">
+		        	<p>2222222</p>
+		        </div>
+		        
+		        <div class="swiper-slide">
+		        	<p>3333333</p>
+		        </div>
+		        
+		        <div class="swiper-slide">
+		        	<p>4444444</p>
+		        </div>
+		        <div class="swiper-slide">
+		        	<p>5555555</p>
+		        </div>
+		        <div class="swiper-slide">
+		        	<p>6666666</p>
+		        </div>
+		        <div class="swiper-slide">
+		        	<p>77777777</p>
+		        </div>
+		        <div class="swiper-slide">
+		        	<p>88888888</p>
+		        </div>
+		        
+		       
+		       
+		       
+		        
+		    </div>
+    <!-- 如果需要分页器 -->
+    		<div class="swiper-pagination"></div>
+    
+    <!-- 如果需要导航按钮 -->
+    		
+    
+    <!-- 如果需要滚动条 -->
+    		
+</div>
+		
+		
+		
+		
+		
+	</body>
+</html>
+<script src="statics/js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+<script>        
+  var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
